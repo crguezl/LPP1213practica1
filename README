@@ -1,12 +1,13 @@
 LPP 12/13 
 First Lab
 
-- Use ruby 1.9.2 or later  (run ruby -v)
-- Optionally: Install rvm (https://rvm.io/) and learn to use it
-- To see the options for the Rakefile run
-   rake -T
-- To run in debug mode write "rake debug[rock]"
-  or "rake debug[scissors]"
+  - Use ruby 1.9.2 or later  (run ruby -v)
+  - Optionally: Install rvm (https://rvm.io/) and learn to use it
+  - To see the options for the Rakefile run "rake -T"
+        ~/Dropbox/src/ruby/LPP/p1(master)]$ rake -T
+        rake debug[player]  # Run rps_simple_command_line.rb in debugger mode
+        rake rps            # Run rps_simple_command_line.rb with ruby
+        rake tar            # makes a tar.gz with all the files
 
-- Install  the following gems (optional step)
-    gem install sinatra
+  - To run in debug mode write "rake debug[rock]" or "rake debug[scissors]"
+
