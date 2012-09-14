@@ -1,8 +1,12 @@
-- Use ruby 1.9.2 or later 
-- Optionally: Install rvm and learn to use it
-- Install  the following gems
-    gem install sinatra
-    gem install shotgun
-    gem install haml
+LPP 12/13 
+First Lab
+
+- Use ruby 1.9.2 or later  (run ruby -v)
+- Optionally: Install rvm (https://rvm.io/) and learn to use it
 - To see the options for the Rakefile run
    rake -T
+- To run in debug mode write "rake debug[rock]"
+  or "rake debug[scissors]"
+
+- Install  the following gems (optional step)
+    gem install sinatra
